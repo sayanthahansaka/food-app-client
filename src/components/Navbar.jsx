@@ -1,10 +1,29 @@
-import React from 'react'
+import React, {useState, useEffect } from 'react'
 import { LuPhoneCall } from "react-icons/lu";
 
 const Navbar = () => {
+    const [isSticky, setSticky] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const offset = window.scrollY;
+            if(offset > 0){
+                setSticky(true)
+            }else {
+                setSticky(false)
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.addEventListener("scroll", handleScroll);
+        }
+    }, [])
+
     return (
-        <header className='max-w-screen-2x1 container mx-auto'>
-            <div className="navbar x1-px-24">
+        <header className='max-w-screen-2x1 container mx-auto fixed top-0 left-0 right-0 transition-all duration-300 ease-in-out'>
+            <div className={`navbar x1-px-24 ${isSticky ? "shadow-md bg-base-100 transition-all duration-300 ease-in-out" : " "}`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

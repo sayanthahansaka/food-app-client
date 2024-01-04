@@ -4,6 +4,14 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+header{
+    z-index: 10001 !important;
+}
+
+.heartStar{
+    border-radius: 20px 27.5px 9px 825px;
+}
+
 /* .section-container{
     @apply max-w-screen-2x1 container mx-auto xl:px-24 pxp4;
 } */
