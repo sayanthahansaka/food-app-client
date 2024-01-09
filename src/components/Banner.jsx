@@ -8,7 +8,7 @@ const Banner = () => {
         <div className='md:w-1/2 space-y-7 px-4'>
           <h2 className='md:text-5xl text-4xl font-bold md:leading-snug leading-snug'>
             Delicious Delivered<br></br>
-            <span className='text-green'>:</span><span className='text-red'>Oshin Lanka's</span>
+            <span className='text-red'>Oshin Lanka's</span>
             <br></br> Online Food Delivery
           </h2>
           <p className='text-xl text-[#4A4A4A]'>
@@ -19,7 +19,7 @@ const Banner = () => {
 
         {/* Image */}
         <div className='md:w-1/2'>
-          <img src="public\images\home\srilankan food.jpg" alt="Delicious Sri Lankan Food" />
+          <img src="public\images\home\srilankan food.jpg" alt="Delicious Sri Lankan Food" style={{}}/>
         </div>
       </div>
     </div>

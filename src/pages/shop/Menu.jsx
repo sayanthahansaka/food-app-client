@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Cards from '../../components/Cards';
 
 const Menu = () => {
     const [menu, setMenu] = useState([]);
@@ -25,6 +26,45 @@ const Menu = () => {
     },[])
 
     // filtaring data
+    const filterItems = (category) => {
+        const filtered = category === "all" ? menu : menu.filter((item) => item.category === category);
+
+        setFilteredItems(filtered);
+        setSelectedCategory(category);
+    };
+
+    // show all data
+    const showAll = () => {
+        setFilteredItems(menu);
+        setSelectedCategory("all");
+    }
+
+    // sorting based on A-Z, Z-A, Low-High price
+    const handleSortChange = (option) => {
+        setSortOption(option);
+
+        let sortedItems = [...filteredItems];
+
+        switch(option) {
+            case "A-Z":
+                sortedItems.sort((a,b) => a.name.localeCompare(b.name))
+              break;
+            case "Z-A":
+                sortedItems.sort((a,b) => b.name.localeCompare(a.name))
+              break;
+              case "low-to-high":
+                sortedItems.sort((a,b) => a.price - b.price)
+              break;
+              case "high-to-low":
+                sortedItems.sort((a,b) => b.price - a.price)
+              break;
+            default:
+              break;
+          }
+
+          setFilteredItems(sortedItems);
+    }
+     
 
 
     return (
@@ -51,9 +91,28 @@ const Menu = () => {
 
             {/* menu orders */}
             <div max-w-screen-2x1 container mx-auto xl:px-24 pxp4>
+                {/* filtering and sort */}
+                <div>
+                    {/* all catagory btns */}
+                <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap'>
+                    <button>All</button>
+                    <button>Dishes</button>
+                    <button>Beverages</button>
+                    <button>Liquor</button>
+                </div>
+                    
+                </div>
 
+                {/* products card */}
+                <div className='grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4'>
+                {
+                    filteredItems.map((item) => (
+                        <Cards key={item._id} item={item} />
+                    ))
+                }
+
+                </div>
             </div>
-
         </div>
     )
 }
