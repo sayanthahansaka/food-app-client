@@ -95,10 +95,14 @@ const Menu = () => {
                 <div>
                     {/* all catagory btns */}
                 <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap'>
-                    <button>All</button>
-                    <button>Dishes</button>
-                    <button>Beverages</button>
-                    <button>Liquor</button>
+                    <button onClick={showAll}>All</button>
+                    <button onClick={() => filterItems("rice")}>Rice</button>
+                    <button onClick={() => filterItems("kottu")}>Kottu</button>
+                    <button onClick={() => filterItems("other")}>Other foods</button>
+                    <button onClick={() => filterItems("curry")}>Curry</button>
+                    <button onClick={() => filterItems("d&f")}>Dewal & Fried</button>
+                    <button onClick={() => filterItems("beverages")}>Beverages</button>
+                    <button onClick={() => filterItems("dessert")}>Dessert</button>
                 </div>
                     
                 </div>

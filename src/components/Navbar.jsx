@@ -51,8 +51,8 @@ const Navbar = () => {
                                 <ul className="p-2">
                                     <li><a href='/menu'>All</a></li>
                                     <li><a>Dishes</a></li>
-                                    <li><a>Beverages</a></li>
-                                    <li><a>Dessert</a></li>
+                                    <li><a>Curry</a></li>
+                                    <li><a>Dewal & Fried</a></li>
                                     <li><a>Beverages</a></li>
                                     <li><a>Liquor</a></li>
                                 </ul>

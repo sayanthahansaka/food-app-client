@@ -1,30 +1,5 @@
 [
     {
-        "_id": "642c155b2c4774f05c36eeaa",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "public/images/recipes/img1.png",
-        "category": "salad",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "/images/recipes/img2.png",
-        "category": "drinks",
-        "price": 14.7
-    },
-        
-    {
-        "_id": "642c155b2c4774f05c36ee88",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "/images/recipes/img1.png",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
         "_id": "642c155b2c4774f05c36ee7c",
         "name": "Chicken Kottu",
         "recipe": "A flavorful Sri Lankan street food with shredded roti, vegetables, and chicken stir-fried in aromatic spices.",
@@ -73,7 +48,7 @@
         "price": 3.5
       },   
       {
-        "_id": "642c155b2c4774f05c36ee7e",
+        "_id": "642c155b2c4774f05c36ee27e",
         "name": "Chicken Curry",
         "recipe": "Enjoy the warmth and flavor of homemade Chicken Curry with tender pieces simmered in a rich and aromatic curry sauce.",
         "image": "https://orsimages.unileversolutions.com/ORS_Images/Knorr_en-LK/Chicken-Curry_43_1.1.295_326X580.Jpeg",
@@ -81,7 +56,7 @@
         "price": 2.5
       },  
       {
-        "_id": "642c155b2c4774f05c36ee7e",
+        "_id": "642c155b2c4774f05c36ee71e",
         "name": "Pittu",
         "recipe": "Savor the simplicity of Pittu, a Sri Lankan favorite made from steamed rice flour and coconut, served with a variety of delectable accompaniments.",
         "image": "https://cookerybay.com/wp-content/uploads/2022/07/Pittu-500x375.jpg",
@@ -98,404 +73,358 @@
       }, 
     {
         "_id": "642c155b2c4774f05c36ee8c",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "/images/recipes/img3.png",
-        "category": "dessert",
-        "price": 12.5
+        "name": "Chicken Curry",
+        "recipe": "Enjoy the warmth and flavor of homemade Chicken Curry with tender pieces simmered in a rich and aromatic curry sauce.",
+        "image": "https://orsimages.unileversolutions.com/ORS_Images/Knorr_en-LK/Chicken-Curry_43_1.1.295_326X580.Jpeg",
+        "category": "curry",
+        "price": 2.5
     },
     {
         "_id": "642c155b2c4774f05c36ee94",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 12.5
+        "name": "Pork Curry",
+        "recipe": "Savor succulent pork, aromatic spices, and coconut milk in our slow-cooked, delightful Pork Curry.",
+        "image": "https://boyeatsworld.com.au/wp-content/uploads/2017/04/yangon-food-burmese-pork-curry.jpg",
+        "category": "curry",
+        "price": 3
     },
     {
         "_id": "642c155b2c4774f05c36ee9e",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "/images/recipes/img2.png",
-        "category": "pizza",
-        "price": 12.9
+        "name": "Babath Curry",
+        "recipe": "Experience Babath Curry, a flavorful blend of spices and tender meat, inviting you to savor every delicious bite.",
+        "image": "https://quickee.com/wp-content/uploads/2022/12/babath-curry.jpeg",
+        "category": "curry",
+        "price": 3
     },
     {
         "_id": "642c155b2c4774f05c36eea6",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img3.png",
-        "category": "salad",
-        "price": 13.5
+        "name": "Wild Boar Curry",
+        "recipe": "Add a burst of flavors with our Wild Boar Curry. Savory and satisfying!",
+        "image": "https://lh6.ggpht.com/z6RxBp_eCKRVWgJAca9FbININOq-GI3Bzy3ai6DqgEfb69K6728ocYjm_ryQlygPBxMPJ6umuRgfpSoYZG8GA-aXBA=s800",
+        "category": "curry",
+        "price": 5.5
     },
     {
         "_id": "642c155b2c4774f05c36eeaf",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 12.5
-    },
+        "name": "Dhal Curry",
+        "recipe": "Experience the comfort of our hearty Dhal Curry, featuring lentils, spices, and coconut milk.",
+        "image": "https://mabdulally.lk/wp-content/webpc-passthru.php?src=https://mabdulally.lk/wp-content/uploads/2023/06/Sri-Lankan-Dhal-Curry.jpg&nocache=1",
+        "category": "curry",
+        "price": 2.25
+      },      
     {
         "_id": "642c155b2c4774f05c36ee89",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img2.png",
-        "category": "dessert",
-        "price": 13.5
+        "name": "Potato Curry",
+        "recipe": "Savor our Potato Curry—a perfect blend of spices and tender potatoes.",
+        "image": "https://images.squarespace-cdn.com/content/v1/624fa63d5ba99559345806e6/aa4545d7-dc83-418c-8d80-0a09df31219a/EG11_EP80_Sri-Lankan-Potato-Curry-_1L0A0798.jpg",
+        "category": "curry",
+        "price": 2.25
     },
     {
         "_id": "642c155b2c4774f05c36ee8a",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "/images/recipes/img3.png",
-        "category": "dessert",
-        "price": 12.5
+        "name": "Egg Curry",
+        "recipe": "Indulge in our flavorful Egg Curry, where the rich spices invite you to savor each delicious bite.",
+        "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/egg-curry-recipe.jpg",
+        "category": "curry",
+        "price": 2.25
     },
+    
     {
-        "_id": "642c155b2c4774f05c36ee96",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 9.5
-    },
-    {
+        "_id": "642c155b2c4774f05c36ee75c",
+        "name": "Chicken Kottu",
+        "recipe": "A flavorful Sri Lankan street food with shredded roti, vegetables, and chicken stir-fried in aromatic spices.",
+        "image": "https://cookerybay.com/wp-content/uploads/2021/06/Chicken-Kottu.jpg",
+        "category": "kottu",
+        "price": 4.5
+      }, 
+      {
         "_id": "642c155b2c4774f05c36ee81",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "/images/recipes/img2.png",
-        "category": "offered",
-        "price": 10.5
-    },
+        "name": "Pork Kottu",
+        "recipe": "Delicious Pork Kottu is a Sri Lankan street food made with shredded roti, tender pork, vegetables, and aromatic spices. It's a flavorful and satisfying dish that you can easily prepare at home.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chicken_Kottu.jpg/640px-Chicken_Kottu.jpg",
+        "category": "kottu",
+        "price": 4.5
+    },    
     {
         "_id": "642c155b2c4774f05c36ee84",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "/images/recipes/img3.png",
-        "category": "dessert",
-        "price": 14.5
-    },
+        "name": "Egg Kottu",
+        "recipe": "A delicious Egg Kottu made with shredded roti, eggs, and veggies.",
+        "image": "https://i0.wp.com/magnificentsrilanka.com/wp-content/uploads/2022/05/egg-kottu.jpg?resize=1024%2C768&ssl=1",
+        "category": "kottu",
+        "price": 3.5
+    },    
     {
         "_id": "642c155b2c4774f05c36eea4",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img1.png",
-        "category": "salad",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea5",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img2.png",
-        "category": "salad",
-        "price": 9.5
+        "name": "Cheese Kottu",
+        "recipe": "A delightful Cheese Kottu featuring shredded roti, cheese, and a mix of aromatic spices.",
+        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/120fa0daed248356ef5d7201cf404e39/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+        "category": "kottu",
+        "price": 6.5
     },
     {
         "_id": "642c155b2c4774f05c36ee87",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img3.png",
-        "category": "dessert",
-        "price": 13.5
+        "name": "Chicken Fried Rice",
+        "recipe": "A delicious Chicken Fried Rice made with tender chicken, mixed vegetables, and fragrant jasmine rice stir-fried to perfection.",
+        "image": "https://www.unileverfoodsolutions.lk/dam/global-ufs/mcos/meps/sri-lanka/calcmenu/recipes/LK-recipes/general/chicken-fried-rice/main-header.jpg",
+        "category": "rice",
+        "price": 4.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea5",
+        "name": "Mix Seafood Fried Rice",
+        "recipe": "A delightful dish with assorted seafood creating a tasty and satisfying fried rice experience.",
+        "image": "public/images/recipes/img3.jpg",
+        "category": "rice",
+        "price": 6
     },
     {
         "_id": "642c155b2c4774f05c36ee83",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img1.png",
-        "category": "offered",
-        "price": 13.5
+        "name": "Pork Fried Rice",
+        "recipe": "A tasty Pork Fried Rice made with succulent pork, mixed vegetables, and fragrant jasmine rice stir-fried to perfection",
+        "image": "https://mobkitchen-objects.imgix.net/recipes/849A8611.jpg?auto=format&crop=focalpoint&domain=mobkitchen-objects.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=630&ixlib=php-3.3.1&q=82&w=1200&s=046f570d14e7b0560a9cfb4a6491eeac",
+        "category": "rice",
+        "price": 4.5
     },
         
     {
         "_id": "642c155b2c4774f05c36eea8",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img3.png",
-        "category": "salad",
-        "price": 13.5
+        "name": "Chicken and Pork Fried Rice",
+        "recipe": "A delightful combination of tender chicken, succulent pork, mixed vegetables, and fragrant jasmine rice stir-fried to perfection.",
+        "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FSeries%2F2020-04-snapshot-cooking-5-recipes-to-make-with-2-cups-of-rice%2Fthekitchn-pork-fried-rice-beauty",
+        "category": "rice",
+        "price": 5.5
     },
     {
         "_id": "642c155b2c4774f05c36eeba",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "/images/recipes/img1.png",
-        "category": "drinks",
-        "price": 14.7
+        "name": "Mix Fried Foods Fried Rice",
+        "recipe": "An enticing Mix Fried Foods Fried Rice featuring a medley of various fried ingredients, combined with fragrant rice for a delicious and flavorful dish.",
+        "image": "https://i.ytimg.com/vi/_TgNmKDd40w/maxresdefault.jpg",
+        "category": "rice",
+        "price": 7
     },
     {
         "_id": "642c155b2c4774f05c36ee80",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "/images/recipes/img2.png",
-        "category": "offered",
-        "price": 14.5
+        "name": "Plain Tea (Ginger)",
+        "recipe": "Brew a soothing cup of plain tea with the added warmth of ginger for a comforting and aromatic experience.",
+        "image": "https://c.ndtvimg.com/2023-03/t6scbg9_ginger-tea_625x300_16_March_23.jpg?im=FaceCrop,algorithm=dnn,width=345,height=250?im=Resize=(80,60)",
+        "category": "beverages",
+        "price": 0.50
     },
     {
         "_id": "642c155b2c4774f05c36ee90",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img3.png",
-        "category": "dessert",
-        "price": 9.5
+        "name": "Soft Drinks",
+        "recipe": "A selection of refreshing soft drinks to quench your thirst and elevate your dining experience.",
+        "image": "https://cdn.britannica.com/33/206333-050-598A0208/sodas-plastic-cups-ice-straws.jpg",
+        "category": "beverages",
+        "price": null
     },
     {
         "_id": "642c155b2c4774f05c36eeb0",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 13.5
+        "name": "Beer",
+        "recipe": "Enjoy a cold and refreshing beer to unwind and complement your meal.",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/kiow6fk0-0/mug/b/f/y/stylish-transparent-beer-mug-glass-with-premium-handle-1-baluda-original-imafyfe3dfd4jq7n.jpeg?q=90&crop=false",
+        "category": "beverages",
+        "price": null
     },
     {
         "_id": "642c155b2c4774f05c36ee8d",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img2.png",
-        "category": "dessert",
-        "price": 13.5
+        "name": "Liquor",
+        "recipe": "Indulge in a selection of fine liquors to elevate your dining experience.",
+        "image": "https://d3d7qmccklvqbw.cloudfront.net/wp-content/uploads/2017/06/hub_classic_cocktail_manhattan.jpg",
+        "category": "beverages",
+        "price": null
     },
     {
         "_id": "642c155b2c4774f05c36ee8e",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "/images/recipes/img3.png",
-        "category": "dessert",
-        "price": 12.5
+        "name": "Chicken Dewal",
+        "recipe": "Savor the rich flavors of Chicken Dewal, a delicious dish made with tender chicken, aromatic spices, and a delectable sauce.",
+        "image": "https://orsimages.unileversolutions.com/ORS_Images/Knorr_en-LK/Devilled_43_1.1.296_326X580.Jpeg",
+        "category": "d&f",
+        "price": 4.5
     },
     {
         "_id": "642c155b2c4774f05c36eea7",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img2.png",
-        "category": "salad",
-        "price": 9.5
+        "name": "Pork Dewal",
+        "recipe": "Indulge in the savory goodness of Pork Dewal, a delightful dish featuring succulent pork, aromatic spices, and a flavorful sauce.",
+        "image": "https://1979dehiwala.shophere.lk/wp-content/uploads/2020/05/DevilledPork-300x300-1.jpg",
+        "category": "d&f",
+        "price": 4.5
     },
     {
         "_id": "642c155b2c4774f05c36ee99",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 14.5
+        "name": "Shrimp Dewal",
+        "recipe": "Experience the exquisite taste of Shrimp Dewal, a delectable dish featuring succulent shrimp, aromatic spices, and a flavorful sauce.",
+        "image": "https://i.ytimg.com/vi/OI9hWMHORDg/maxresdefault.jpg",
+        "category": "d&f",
+        "price": 3.5
     },
     {
-        "_id": "642c155b2c4774f05c36eeb3",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img3.png",
-        "category": "soup",
-        "price": 9.5
+        "_id": "642c155b2c4774f05c36ee91",
+        "name": "Wild Boar Dewal",
+        "recipe": "Savory Wild Boar Dewal with tender meat cooked to perfection in a blend of aromatic spices.",
+        "image": "https://i0.wp.com/atmykitchen.net/wp-content/uploads/2022/04/20220403_031109-02.jpeg?fit=720%2C1197&ssl=1&resize=350%2C200",
+        "category": "d&f",
+        "price": 6.5
     },
     {
         "_id": "642c155b2c4774f05c36eeb5",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 9.5
+        "name": "Fried Chicken",
+        "recipe": "Enjoy crispy and succulent Fried Chicken, made with a special blend of herbs and spices for an irresistible flavor",
+        "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Fried-Chicken-Wing.jpg",
+        "category": "d&f",
+        "price": 3.5
     },
     {
         "_id": "642c155b2c4774f05c36eeb6",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "/images/recipes/img2.png",
-        "category": "soup",
-        "price": 14.7
+        "name": "Fried Pork",
+        "recipe": "Indulge in the crispy goodness of Fried Pork, seasoned to perfection for a delicious and satisfying experience.",
+        "image": "https://images.yummy.ph/yummy/uploads/2019/10/crispyfriedporkrecipetulapho2-1.png",
+        "category": "d&f",
+        "price": 3.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8b",
+        "name": "Fried Shrimp",
+        "recipe": "Indulge in crispy Fried Shrimp, succulent prawns coated in a flavorful batter and deep-fried to perfection.",
+        "image": "https://foodvoyageur.com/wp-content/uploads/2020/11/Crispy-Batter-fried-prawns-1.webp",
+        "category": "d&f",
+        "price": 3.5
     },
     {
         "_id": "642c155b2c4774f05c36eeb8",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "/images/recipes/img3.png",
-        "category": "soup",
+        "name": "Fried Cashew",
+        "recipe": "Enjoy the crunchy delight of Fried Cashew, lightly seasoned and fried to perfection for a delightful snacking experience.",
+        "image": "https://noshingwiththenolands.com/wp-content/uploads/2014/08/Herb-Roasted-Cashews-1200-x-1200-720x540.jpg",
+        "category": "d&f",
         "price": 14.7
     },
       
     {
-        "_id": "642c155b2c4774f05c36ee8b",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img2.png",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8f",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img3.png",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee91",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans",
-        "image": "/images/recipes/img1.png",
-        "category": "dessert",
-        "price": 14.7
-    },
-    {
         "_id": "642c155b2c4774f05c36ee97",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "/images/recipes/img2.png",
-        "category": "pizza",
-        "price": 14.7
+        "name": "Egg Roti",
+        "recipe": "Traditional Egg Roti featuring a thin layer of roti wrapped around spiced scrambled eggs for a perfect blend of textures.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqMdvDKd5I8Sa-LLKwfNDqGZnvQtsJG0hog&usqp=CAU",
+        "category": "other",
+        "price": 0.80
     },
     {
         "_id": "642c155b2c4774f05c36eea0",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "/images/recipes/img3.png",
-        "category": "pizza",
-        "price": 14.5
+        "name": "Godamba Roti",
+        "recipe": "Savor the taste of Godamba Roti, a Sri Lankan flatbread, pan-fried to perfection, and often enjoyed with a variety of delicious fillings or accompaniments.",
+        "image": "https://kravingsfoodadventures.com/wp-content/uploads/2020/07/GodambaRoti-H-1024x683.jpg",
+        "category": "other",
+        "price": 0.65
     },
     {
         "_id": "642c155b2c4774f05c36eea9",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img1.png",
-        "category": "salad",
-        "price": 9.5
+        "name": "Coconut Roti",
+        "recipe": "Experience the delightful Coconut Roti, a traditional Sri Lankan flatbread made with grated coconut and wheat flour, cooked to perfection.",
+        "image": "https://www.sidechef.com/recipe/5a10d1ae-8a69-43e2-b95d-4db53f572a52.jpg?d=1408x1120",
+        "category": "other",
+        "price": 0.40
     },
     {
         "_id": "642c155b2c4774f05c36ee85",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "/images/recipes/img2.png",
-        "category": "dessert",
-        "price": 10.5
+        "name": "Plain Hoppers",
+        "recipe": "Delight in the simplicity of Plain Hoppers, a traditional Sri Lankan dish made with a fermented rice batter, creating soft and bowl-shaped crepes.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvxStoM5lZwJ2_quqWs2cqO0mFqq4KLKYWcysHtsmkKYs-MxfnqM_pwFYZZnqKjI2zW8&usqp=CAU",
+        "category": "other",
+        "price": 0.70
     },
     {
         "_id": "642c155b2c4774f05c36ee93",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "/images/recipes/img3.png",
-        "category": "pizza",
-        "price": 10.5
+        "name": "Egg Hoppers",
+        "recipe": "Enjoy the delicious combination of traditional Hoppers filled with a cracked egg, creating a unique and satisfying culinary experience.",
+        "image": "https://as2.ftcdn.net/v2/jpg/02/23/62/83/1000_F_223628377_vcTCOTtcu0BqALrDbjmPP9r09l3andjZ.jpg",
+        "category": "other",
+        "price": 1.15
     },
     {
         "_id": "642c155b2c4774f05c36ee95",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 13.5
+        "name": "Honey Hoppers",
+        "recipe": "Indulge in the sweet delight of Honey Hoppers, a delectable variation of traditional hoppers drizzled with honey for a delightful taste.",
+        "image": "https://cdn.doordash.com/media/photos/48d00a0e-f428-4a13-9b3d-4d5add372000-retina-large.jpg",
+        "category": "other",
+        "price": 1.15
     },
     {
         "_id": "642c155b2c4774f05c36ee9b",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 14.5
+        "name": "Pittu",
+        "recipe": "Savor the simplicity of Pittu, a Sri Lankan favorite made from steamed rice flour and coconut, served with a variety of delectable accompaniments.",
+        "image": "https://cookerybay.com/wp-content/uploads/2022/07/Pittu-500x375.jpg",
+        "category": "other",
+        "price": 0.65
     },
-    {
-        "_id": "642c155b2c4774f05c36eeb7",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 9.5
-    },
+    
     {
         "_id": "642c155b2c4774f05c36ee9c",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 12.9
+        "name": "String Hoppers",
+        "recipe": "Delight in the fine texture of String Hoppers, a traditional Sri Lankan dish made with steamed rice noodle nests, typically served with savory accompaniments.",
+        "image": "https://harischandramills.com/wp-content/uploads/2018/06/3-2.jpg",
+        "category": "other",
+        "price": 0.25
     },
     {
         "_id": "642c155b2c4774f05c36ee9d",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 14.5
+        "name": "Egg Omlet",
+        "recipe": "Savor the classic taste of a well-cooked Egg Omelet, made with eggs, herbs, and a variety of fillings for a delicious and satisfying meal.",
+        "image": "https://bellyfull.net/wp-content/uploads/2020/08/Omelette-blog-3-500x375.jpg",
+        "category": "other",
+        "price": 0.90
     },
     {
         "_id": "642c155b2c4774f05c36eeac",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "/images/recipes/img1.png",
-        "category": "salad",
-        "price": 14.5
+        "name": "Dosa",
+        "recipe": "Enjoy the crispy and thin South Indian Dosa, made with fermented rice and urad dal batter, typically served with chutney and sambar.",
+        "image": "https://www.ticklingpalates.com/wp-content/uploads/2022/03/plain-dosa.jpg",
+        "category": "other",
+        "price": 0.90
     },
     {
         "_id": "642c155b2c4774f05c36eeb4",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 14.7
+        "name": "Uludu Wadae",
+        "recipe": "Indulge in the crispy delight of Uludu Wadae, also known as Ulundu Vadai, a South Indian snack made with urad dal and spices, deep-fried to perfection.",
+        "image": "https://static.toiimg.com/thumb/60005006.cms?imgsize=414614&width=800&height=800",
+        "category": "other",
+        "price": 0.70
     },
     {
         "_id": "642c155b2c4774f05c36ee98",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee82",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "/images/recipes/img1.png",
-        "category": "offered",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee86",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "/images/recipes/img1.png",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9a",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeab",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "/images/recipes/img1.png",
-        "category": "salad",
-        "price": 14.5
+        "name": "Dhal Wadae (small)",
+        "recipe": "Savor the bite-sized goodness of Dhal Wadae, a small and flavorful South Indian snack made with lentils and spices, deep-fried to perfection.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSM1KHyNXIYoJbAmeae_3k2FHYWE8jJMsq4Q&usqp=CAU",
+        "category": "other",
+        "price": 0.30
     },
     {
         "_id": "642c155b2c4774f05c36eeb1",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 9.5
+        "name": "Dhal Wadae",
+        "recipe": "Savor the deliciousness of Dhal Wadae, a South Indian snack made with lentils and spices, deep-fried to perfection.",
+        "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/01/masala-vada-chana-dal-vada.jpg",
+        "category": "other",
+        "price": 0.65
     },
     {
         "_id": "642c155b2c4774f05c36eead",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 14.5
+        "name": "Egg Roti",
+        "recipe": "Traditional Egg Roti featuring a thin layer of roti wrapped around spiced scrambled eggs for a perfect blend of textures.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqMdvDKd5I8Sa-LLKwfNDqGZnvQtsJG0hog&usqp=CAU",
+        "category": "other",
+        "price": 0.80
     },
     {
-        "_id": "642c155b2c4774f05c36eeae",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 10.5
+        "_id": "642c155b2c4774f05c36eeb7",
+        "name": "Coconut Roll",
+        "recipe": "Savor the taste of Coconut Roll, a delightful dessert made with a sweet coconut filling rolled in a thin layer of pastry or dough.",
+        "image": "https://www.anallievent.com/wp-content/uploads/2017/11/Coconut-Roll-Cake-hero-480x480.jpg",
+        "category": "dessert",
+        "price": 9.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee9a",
+        "name": "Watalappan",
+        "recipe": "Indulge in the rich and creamy flavors of Watalappan, a traditional Sri Lankan coconut custard pudding, offering a delightful taste of the island's culinary heritage",
+        "image": "https://cdn1.matadornetwork.com/blogs/1/2019/07/Upalis-by-Nawaloka-1-1200x900.jpg",
+        "category": "dessert",
+        "price": 2.5
     }
 ]
