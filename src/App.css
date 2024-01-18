@@ -11,6 +11,11 @@ header{
 .heartStar{
     border-radius: 20px 27.5px 9px 825px;
 }
+.active{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #39DB4A;
+}
 
 /* .section-container{
     @apply max-w-screen-2x1 container mx-auto xl:px-24 pxp4;

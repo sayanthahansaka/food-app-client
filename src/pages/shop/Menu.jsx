@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Cards from '../../components/Cards';
+import { FaFilter } from "react-icons/fa"
 
 const Menu = () => {
     const [menu, setMenu] = useState([]);
     const [filteredItems, setFilteredItems] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState(["all"]);
     const [sortOption, setSortOption] = useState(["default"]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [itemsPrePage] = useState(8);
 
     // loding data
     useEffect(() => {
@@ -31,12 +34,14 @@ const Menu = () => {
 
         setFilteredItems(filtered);
         setSelectedCategory(category);
+        setCurrentPage(1);
     };
 
     // show all data
     const showAll = () => {
         setFilteredItems(menu);
         setSelectedCategory("all");
+        setCurrentPage(1);
     }
 
     // sorting based on A-Z, Z-A, Low-High price
@@ -63,14 +68,20 @@ const Menu = () => {
           }
 
           setFilteredItems(sortedItems);
+          setCurrentPage(1);
     }
      
-
+    // Pagination 
+    const indexOfLastItem = currentPage + itemsPrePage;
+    const indexOfFirstItem = indexOfLastItem - itemsPrePage;
+    const currentItem = filteredItems.slice(indexOfFirstItem, indexOfLastItem);
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
         <div>
             {/* menu top */}
             <div className='max-w-screen-2xl container mx-auto xl:px-24 px-4 bg-gradient-to-r from-[#FAFAFA] via-0% to-[#FCFCFC] to-100%'>
+
 
                 <div className='py-48 flex flex-col items-center justify-center gap-8'>
                     {/* Text */}
@@ -92,30 +103,75 @@ const Menu = () => {
             {/* menu orders */}
             <div max-w-screen-2x1 container mx-auto xl:px-24 pxp4>
                 {/* filtering and sort */}
-                <div>
+                <div className='flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-3'>
                     {/* all catagory btns */}
                 <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap'>
-                    <button onClick={showAll}>All</button>
-                    <button onClick={() => filterItems("rice")}>Rice</button>
-                    <button onClick={() => filterItems("kottu")}>Kottu</button>
-                    <button onClick={() => filterItems("other")}>Other foods</button>
-                    <button onClick={() => filterItems("curry")}>Curry</button>
-                    <button onClick={() => filterItems("d&f")}>Dewal & Fried</button>
-                    <button onClick={() => filterItems("beverages")}>Beverages</button>
-                    <button onClick={() => filterItems("dessert")}>Dessert</button>
+                    <button onClick={showAll}
+                    className={selectedCategory === "all" ? "active" : ""}
+                    >All</button>
+                    <button onClick={() => filterItems("rice")}
+                    className={selectedCategory === "rice" ? "active" : ""}
+                    >Rice</button>
+                    <button onClick={() => filterItems("kottu")}
+                    className={selectedCategory === "kottu" ? "active" : ""}
+                    >Kottu</button>
+                    <button onClick={() => filterItems("curry")}
+                    className={selectedCategory === "curry" ? "active" : ""}
+                    >Curry</button>
+                    <button onClick={() => filterItems("d&f")}
+                    className={selectedCategory === "d&f" ? "active" : ""}
+                    >Dewal & Fried</button>
+                    <button onClick={() => filterItems("beverages")}
+                    className={selectedCategory === "beverages" ? "active" : ""}
+                    >Beverages</button>
+                    <button onClick={() => filterItems("dessert")}
+                    className={selectedCategory === "dessert" ? "active" : ""}
+                    >Dessert</button>
+                    <button onClick={() => filterItems("other")}
+                    className={selectedCategory === "other" ? "active" : ""}
+                    >Other foods</button>
                 </div>
-                    
+                    {/* sorting types */}
+                    <div className='flex justify-end mb-4 rounded-sm'>
+                        <div className='bg-black p-2'>
+                            <FaFilter className='h-4 w-4 text-white'/>
+                        </div>
+                        <select name="sort" id="sort"
+                        onChange={(e) => handleSortChange(e.target.value)}
+                         value={sortOption}
+                         className='bg-black text-white px-2 py-1 rounded-sm'
+                        >
+                            <option value="default">Default</option>
+                            <option value="A-Z">A-Z</option>
+                            <option value="Z-A">Z-A</option>
+                            <option value="low-to-high">Low-to-High</option>
+                            <option value="high-to-low">High-to-Low</option>
+                        </select>
+                    </div>
                 </div>
 
                 {/* products card */}
                 <div className='grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4'>
                 {
-                    filteredItems.map((item) => (
+                    currentItem.map((item) => (
                         <Cards key={item._id} item={item} />
                     ))
                 }
 
                 </div>
+            </div>
+            {/* Pagination section */}
+            <div className='flex justify-center my-8'>
+                {
+                    Array.from({length: Math.ceil(filteredItems.length / itemsPrePage)}).map((_, index) =>(
+                        <button
+                        key={index +1}
+                        onClick={() => paginate(index + 1)}
+                        className={'mx-1 px-3 py-1 rounded-full ${currentPage === index + 1 ? "bg-green text-white" : "bg-gray-200"}'}>
+                            {index + 1}
+                        </button>
+                    ))
+                }
             </div>
         </div>
     )
