@@ -11,17 +11,22 @@ const Main = () => {
 
   return (
     <div className='bg-prigmayBG'>
-      {
-        // loading ? <LodingSpinner/> : 
+      {loading ? (
+        <LodingSpinner/> 
+      ): (
         <div>
           <Navbar/>
+          <div className="min-h-screen">
           <Outlet/>
+          </div>
           <Footer/>
         </div>
-      }
+        // loading ? <LodingSpinner/> : 
+        
+      )}
      
     </div>
-  )
-}
+  );
+};
 
 export default Main

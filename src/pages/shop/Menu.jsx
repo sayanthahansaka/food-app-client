@@ -15,7 +15,7 @@ const Menu = () => {
         // fatc backend data
         const fetchData = async () => {
             try{
-                const response = await fetch("public/menu.json");
+                const response = await fetch("http://localhost:6001/menu");
                 const data = await response.json();
                 // console.log(data);
                 setMenu(data);
